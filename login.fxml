@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="371.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.esalaf.LoginController">
+   <children>
+      <AnchorPane layoutX="-2.0" layoutY="-1.0" prefHeight="400.0" prefWidth="211.0" style="-fx-background-color: #521a0e;">
+         <children>
+            <Text fill="WHITE" layoutX="24.0" layoutY="206.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Grocery Management">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Text>
+         </children>
+      </AnchorPane>
+      <TextField id="usernameField" fx:id="usernameField" layoutX="333.0" layoutY="175.0" promptText="Username" style="-fx-background-color: transparent; -fx-border-color: #521a0e;" />
+      <PasswordField id="passwordField" fx:id="passwordField" layoutX="333.0" layoutY="228.0" promptText="password" style="-fx-alignment: transparent; -fx-border-color: #521a0e;" />
+      <Button id="btnLogin" layoutX="382.0" layoutY="275.0" mnemonicParsing="false" onAction="#handleButtonAction" style="-fx-background-color: #521a0e;" text="Login" textFill="WHITE" />
+      <Hyperlink layoutX="339.0" layoutY="336.0" text="Forget Pour Password ?" />
+      <Text layoutX="362.0" layoutY="138.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Admin Login" wrappingWidth="92.9036865234375" />
+   </children>
+</AnchorPane>
